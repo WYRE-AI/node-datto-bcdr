@@ -1,3 +1,10 @@
+## [2.0.3](https://github.com/WYRE-AI/node-datto-bcdr/compare/v2.0.2...v2.0.3) (2026-08-25)
+
+
+### Bug Fixes
+
+* migrate to WYRE-AI org (npm scope, ghcr namespace, registry) ([#52](https://github.com/WYRE-AI/node-datto-bcdr/issues/52)) ([8476d8e](https://github.com/WYRE-AI/node-datto-bcdr/commit/8476d8e0ffd0488dc0a2f4790a39e085c3296e69))
+
 ## [2.0.2](https://github.com/WYRE-AI/node-datto-bcdr/compare/v2.0.1...v2.0.2) (2026-07-15)
 
 

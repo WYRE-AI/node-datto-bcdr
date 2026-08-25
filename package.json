@@ -1,6 +1,6 @@
 {
   "name": "@wyre-ai/node-datto-bcdr",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
