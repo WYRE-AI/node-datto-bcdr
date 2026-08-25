@@ -4,9 +4,9 @@ Node.js/TypeScript SDK for the Datto BCDR (Backup Portal) API v1.
 
 ## Project info
 
-- **GitHub**: https://github.com/wyre-technology/node-datto-bcdr
-- **Package**: `@wyre-technology/node-datto-bcdr` (GitHub Packages)
-- **Sister SDK**: [`node-datto-rmm`](https://github.com/wyre-technology/node-datto-rmm) — same overall architecture, different auth model (OAuth instead of HMAC).
+- **GitHub**: https://github.com/WYRE-AI/node-datto-bcdr
+- **Package**: `@wyre-ai/node-datto-bcdr` (GitHub Packages)
+- **Sister SDK**: [`node-datto-rmm`](https://github.com/WYRE-AI/node-datto-rmm) — same overall architecture, different auth model (OAuth instead of HMAC).
 
 ## Architecture
 

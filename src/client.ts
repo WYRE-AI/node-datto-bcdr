@@ -19,7 +19,7 @@ import { ActivityResource } from './resources/activity.js';
  *
  * @example
  * ```typescript
- * import { DattoBcdrClient } from '@wyre-technology/node-datto-bcdr';
+ * import { DattoBcdrClient } from '@wyre-ai/node-datto-bcdr';
  *
  * const client = new DattoBcdrClient({
  *   apiKey: process.env.DATTO_BCDR_PUBLIC_KEY!,

@@ -5,7 +5,7 @@ Thanks for your interest in contributing to `node-datto-bcdr`.
 ## Development setup
 
 ```bash
-git clone https://github.com/wyre-technology/node-datto-bcdr.git
+git clone https://github.com/WYRE-AI/node-datto-bcdr.git
 cd node-datto-bcdr
 npm install
 npm test
