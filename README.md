@@ -1,4 +1,4 @@
-# @wyre-technology/node-datto-bcdr
+# @wyre-ai/node-datto-bcdr
 
 Comprehensive, fully-typed Node.js / TypeScript client library for the
 [Datto BCDR (Backup Portal) API v1](https://api.datto.com/v1).
@@ -18,20 +18,20 @@ Comprehensive, fully-typed Node.js / TypeScript client library for the
 ## Install
 
 ```bash
-npm install @wyre-technology/node-datto-bcdr
+npm install @wyre-ai/node-datto-bcdr
 ```
 
-The package is published to GitHub Packages under the `@wyre-technology` scope.
+The package is published to GitHub Packages under the `@wyre-ai` scope.
 Add this to a project-local `.npmrc`:
 
 ```
-@wyre-technology:registry=https://npm.pkg.github.com
+@wyre-ai:registry=https://npm.pkg.github.com
 ```
 
 ## Quick start
 
 ```typescript
-import { DattoBcdrClient } from '@wyre-technology/node-datto-bcdr';
+import { DattoBcdrClient } from '@wyre-ai/node-datto-bcdr';
 
 const client = new DattoBcdrClient({
   apiKey:       process.env.DATTO_BCDR_PUBLIC_KEY!,   // public key
@@ -133,7 +133,7 @@ import {
   DattoBcdrNotFoundError,
   DattoBcdrRateLimitError,
   DattoBcdrServerError,
-} from '@wyre-technology/node-datto-bcdr';
+} from '@wyre-ai/node-datto-bcdr';
 
 try {
   await client.devices.get('SN-1');

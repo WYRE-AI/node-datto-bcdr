@@ -1,42 +1,42 @@
-## [2.0.2](https://github.com/wyre-technology/node-datto-bcdr/compare/v2.0.1...v2.0.2) (2026-07-15)
+## [2.0.2](https://github.com/WYRE-AI/node-datto-bcdr/compare/v2.0.1...v2.0.2) (2026-07-15)
 
 
 ### Bug Fixes
 
-* use live activity-log and per-device alert endpoints ([#43](https://github.com/wyre-technology/node-datto-bcdr/issues/43)) ([1d4c25a](https://github.com/wyre-technology/node-datto-bcdr/commit/1d4c25a146dae625e0d1dfe242bf5372e8f57a2b)), closes [wyre-technology/datto-bcdr-mcp#54](https://github.com/wyre-technology/datto-bcdr-mcp/issues/54) [wyre-technology/datto-bcdr-mcp#55](https://github.com/wyre-technology/datto-bcdr-mcp/issues/55)
+* use live activity-log and per-device alert endpoints ([#43](https://github.com/WYRE-AI/node-datto-bcdr/issues/43)) ([1d4c25a](https://github.com/WYRE-AI/node-datto-bcdr/commit/1d4c25a146dae625e0d1dfe242bf5372e8f57a2b)), closes [WYRE-AI/datto-bcdr-mcp#54](https://github.com/WYRE-AI/datto-bcdr-mcp/issues/54) [WYRE-AI/datto-bcdr-mcp#55](https://github.com/WYRE-AI/datto-bcdr-mcp/issues/55)
 
-## [2.0.1](https://github.com/wyre-technology/node-datto-bcdr/compare/v2.0.0...v2.0.1) (2026-06-22)
-
-
-### Bug Fixes
-
-* **tsconfig:** restore include/exclude globs ([#35](https://github.com/wyre-technology/node-datto-bcdr/issues/35)) ([c1f449e](https://github.com/wyre-technology/node-datto-bcdr/commit/c1f449e873bab4ff9182afbfc78016c953de4158))
-
-# [2.0.0](https://github.com/wyre-technology/node-datto-bcdr/compare/v1.0.1...v2.0.0) (2026-06-11)
+## [2.0.1](https://github.com/WYRE-AI/node-datto-bcdr/compare/v2.0.0...v2.0.1) (2026-06-22)
 
 
 ### Bug Fixes
 
-* **auth:** use HTTP Basic auth instead of custom HMAC signing ([#25](https://github.com/wyre-technology/node-datto-bcdr/issues/25)) ([c679450](https://github.com/wyre-technology/node-datto-bcdr/commit/c679450ccc5dbdb6e4a4841ee5c630b3eadc9ffb))
+* **tsconfig:** restore include/exclude globs ([#35](https://github.com/WYRE-AI/node-datto-bcdr/issues/35)) ([c1f449e](https://github.com/WYRE-AI/node-datto-bcdr/commit/c1f449e873bab4ff9182afbfc78016c953de4158))
+
+# [2.0.0](https://github.com/WYRE-AI/node-datto-bcdr/compare/v1.0.1...v2.0.0) (2026-06-11)
+
+
+### Bug Fixes
+
+* **auth:** use HTTP Basic auth instead of custom HMAC signing ([#25](https://github.com/WYRE-AI/node-datto-bcdr/issues/25)) ([c679450](https://github.com/WYRE-AI/node-datto-bcdr/commit/c679450ccc5dbdb6e4a4841ee5c630b3eadc9ffb))
 
 
 ### BREAKING CHANGES
 
 * **auth:** Removed computeSignature from public exports and changed buildSignedHeaders to take only (publicKey, privateKey).
 
-## [1.0.1](https://github.com/wyre-technology/node-datto-bcdr/compare/v1.0.0...v1.0.1) (2026-05-20)
+## [1.0.1](https://github.com/WYRE-AI/node-datto-bcdr/compare/v1.0.0...v1.0.1) (2026-05-20)
 
 
 ### Bug Fixes
 
-* address medium/low review findings ([#2](https://github.com/wyre-technology/node-datto-bcdr/issues/2)) ([0b939e9](https://github.com/wyre-technology/node-datto-bcdr/commit/0b939e98f17e9227764b65cfc8d66ba22b0f3b1c))
+* address medium/low review findings ([#2](https://github.com/WYRE-AI/node-datto-bcdr/issues/2)) ([0b939e9](https://github.com/WYRE-AI/node-datto-bcdr/commit/0b939e98f17e9227764b65cfc8d66ba22b0f3b1c))
 
 # 1.0.0 (2026-04-30)
 
 
 ### Features
 
-* initial SDK scaffold for Datto BCDR API ([e44b8ce](https://github.com/wyre-technology/node-datto-bcdr/commit/e44b8ce8c1e6b30d324d2469f5b5a0248830fa36))
+* initial SDK scaffold for Datto BCDR API ([e44b8ce](https://github.com/WYRE-AI/node-datto-bcdr/commit/e44b8ce8c1e6b30d324d2469f5b5a0248830fa36))
 
 # Changelog
 

@@ -1,5 +1,5 @@
 /**
- * @wyre-technology/node-datto-bcdr
+ * @wyre-ai/node-datto-bcdr
  *
  * Comprehensive, fully-typed Node.js/TypeScript library for the Datto BCDR
  * (Backup Portal) API v1.
